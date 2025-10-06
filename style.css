@@ -29,7 +29,6 @@
       max-width: 500px;
       background: rgba(255,255,255,0.1);
       border-radius: 50px;
-      padding: 10px 20px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.3);
       border: 1px solid #ccc;
     }
@@ -41,6 +40,7 @@
       color: #fff;
       font-size: 1rem;
       outline: none;
+      padding: 10px 20px;
     }
 
     input::placeholder{
@@ -176,4 +176,5 @@
     @media(max-width: 600px){
       .movie-card img { height: 240px; }
       h1 { font-size: 1.6rem; }
+
     }
